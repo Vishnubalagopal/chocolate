@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe&family=Anek+Telugu:wght@300&family=Montserrat&family=Noto+Serif&display=swap');
+:root{
+    --green:#27ae60;
+}
+.navbar{
+    background-color: rgb(61, 52, 34);
+}
+#navbarSupportedContent ul li a{
+    color: #fff;
+}
+#navbarSupportedContent ul li a:hover{
+    color: rgb(153, 122, 63);
+}
+.flex{
+    word-spacing: 10px;
+}
+.flex a{
+    color: #fff;
+}
+.icons{
+    margin-left: 40px;
+
+
+}
+.icons i{
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20px;
+    background-color:rgb(122, 100, 58);
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.3s linear;
+
+}
+.icons i:hover{
+    color: rgb(122, 100, 58);
+    background-color: white;
+    transform: rotate(360deg);
+    
+}
+#HOME{
+    /* background-image: url(./cacao-5.jpg); */
+    
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+}
+#HOME video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.content{
+    position: relative;
+    z-index: 1;
+}
+#HOME h1{
+    position: relative;
+   
+    margin-top: 200px;
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+}
+#btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+   padding: 10px;
+   margin-top: 30px;
+   transition: 0.6s;
+   border-radius: 8px;
+}
+#btn:hover{
+    background-color: #fff;
+    color: rgb(81, 66, 39);
+}
+
+#HOME h2{
+position: relative;
+top: 180px;
+font-size: 15px;
+font-weight: 200;
+
+}
+ .nv a:hover{
+    color: orange;
+    font-size: 20px;
+    
+}
+.hd{
+    margin-top: 50px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: rgb(98, 86, 64);
+    
+}
+.hd2{
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(98, 86, 64) ;
+}
+/* .line{
+    width: 60px;
+    height: 0.1px;
+    background-color: rgb(72, 65, 53);
+    margin-left: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+.para{
+    color: rgb(98, 86, 64);
+    font-size: 16px;
+    margin-top: 20px;
+}
+.shop{
+    font-size: 13px;
+    color: rgb(98, 86, 64);
+    text-decoration: none;
+    margin-top: 20px;
+}
+.shop:hover{
+    font-size: 15px;
+    color: rgb(41, 37, 28);
+}
+img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, 255);
+
+}
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+#images .col-3 img{
+    height: 250px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.hdg{
+    font-style: italic;
+    text-align: center;
+    color: rgb(77, 68, 50);
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+.hdg1{
+    color: rgb(70, 59, 39);
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+span{
+    color: red;
+}
+
+/* shoping */
+
+.col-8 .one{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./NGIJ2k.webp);
+    background-size: cover;
+
+}
+.col-8 .two{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./chocolates.jpg);
+    background-size: cover;
+
+}
+.col-8 div{
+    color: #fff;
+    margin-top: 10px;
+    height: 410px;
+    padding: 30px;
+}
+.col-8 h1{
+    font-size: 35px;
+}
+.col-8 p{
+    font-size: 20px;
+}
+.col-8 button{
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.col-4 .three{
+    /* background-image: url(./chocolate-box-3d-model-max--obj-mtl-fbx.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./chocolate-box-3d-model-max--obj-mtl-fbx.jpg);
+    background-size: cover;
+
+}
+.col-4 .four{
+    /* background-image: url(./spotlight_corporate-gifts-2021.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./spotlight_corporate-gifts-2021.jpg);
+    background-size: cover;
+
+}
+.col-4 .five{
+    /* background-image: url(./1708w-Getty-chocolate-bar-cocoa-fcafotodigital.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./1708w-Getty-chocolate-bar-cocoa-fcafotodigital.jpg);
+    background-size: cover;
+
+}
+.col-4 div{
+    margin-top: 10px;
+    height: 270px;
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+}
+.col-4 h1{
+    font-size: 25px;
+}
+.col-4 p{
+    font-size: 18px;
+}
+.col-4 button{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 600;
+}
+
+
+.last{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(70, 59, 39);
+    color: #fff;
+    
+}
+
